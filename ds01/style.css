@@ -22,16 +22,83 @@
     height: 1070px;
 
     box-shadow: 0 0 0 10px rgba(70, 75, 84, 1);
-
-    margin-left: 5%;
 }
+.d1-top{
+    display: flex;
+    width: 700px;
+    height: 60px;
+    gap: 8%;
+
+    border-bottom: 2px solid rgba(53, 54, 59, 1);
+    background-color: rgba(31, 32, 37, 1);
+}
+
+.quickit{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: center;
+    justify-content: center;
+    color: azure;
+
+    width: 100px;
+    height: 60px;
+}
+
+.opcoes{
+    display: flex;
+    gap: 10%;
+
+    width: 350px;
+    height: 60px;
+}
+
+.requestDEMO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(32, 91, 240, 1);
+
+    gap:7%;
+    font-size: 11px;
+
+    margin-top: 2%;    
+    width: 110px;
+    height: 35px;
+}
+
+.req{
+    background-color: rgba(32, 91, 240, 1);
+    color: azure;
+    
+    margin-bottom: 1%;
+}
+
+.req-seta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 0 0.5px rgba(74, 122, 242, 1);
+    background-color: rgba(54, 107, 241, 1);
+    width: 13px;
+    height: 13px;
+}
+
+.req-set{
+    background-color: rgba(54, 107, 241, 1);
+    color: azure;
+
+    margin-bottom: 2%;
+    margin-left: 15%;
+}
+
 
 .d2{
     display: flex;
     background-color: rgba(31, 32, 37, 1);
 
     margin-top: 10%;
-    margin-right: 7%;
 
     box-shadow: 0 0 0 10px rgba(70, 75, 84, 1);
 
